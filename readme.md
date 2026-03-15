@@ -6,11 +6,14 @@ Uma incrível ferramenta para auxiliar na construção de narrativas para jogar 
 
 - Gerar NPCs
 - Gerar Missões
+- Gerar Desafios
 
 ## Funcionalidades Futuras
 
 - Gerar Itens
-- Gerar Desafios
+- Gerar Cidades/Vilas
+- Gerar Lugares
+- Gerar Encontros Aleatórios
 
 ## Como utilizar
 
@@ -27,9 +30,14 @@ Uma incrível ferramenta para auxiliar na construção de narrativas para jogar 
 - **Descrição:** Gera um NPC aleatório, com personalidade, status e perícia.
 
 ### Gerar Missão
-- **URL:** `http://localhost:8080/missao`
+- **URL:** `http://localhost:8080/gerador/missao`
 - **Método:** `GET`
 - **Descrição:** Gera uma missão aleatória, com descrição, objetivos e causa.
+
+### Gerar Desafio
+- **URL:** `http://localhost:8080/gerador/desafio`
+- **Método:** `GET`
+- **Descrição:** Gera um desafio aleatório.
 
 ## Tecnologias Utilizadas
 - Java
